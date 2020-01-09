@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Fragments.ProfileFragment">
+
+    <ImageView
+        android:id="@+id/profile_imageview"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/user64black" />
+
+    <TextView
+        android:id="@+id/profile_mail_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_imageview"
+        android:layout_marginTop="8dp"
+        android:textColor="#000"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/set_ad_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/profile_mail_textview"
+        android:background="@drawable/menu_button_backkk"
+        android:text="Reklamları Düzenle"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/log_out_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/menu_button_backkk"
+        android:text="Çıkış Yap"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+
+</RelativeLayout>

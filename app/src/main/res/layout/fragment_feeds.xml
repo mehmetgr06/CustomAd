@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Fragments.FeedsFragment">
+
+    <Button
+        android:id="@+id/see_ad_button"
+        style="?android:textAppearanceSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/menu_button_backkk"
+        android:text="Reklamı Gör"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="17sp" />
+
+</LinearLayout>
